@@ -23,8 +23,6 @@ class Base64:
         
         return string
         
-
-    
     @classmethod
     def encode(cls, string: str):
         string_unicode = [ord(char) for char in string] # string -> unicode 
